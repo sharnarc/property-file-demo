@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "currency-service",
+      "type": "com.autoconfig.property.file.demo.config.CurrencyServiceConfiguration",
+      "sourceType": "com.autoconfig.property.file.demo.config.CurrencyServiceConfiguration"
+    },
+    {
+      "name": "spring.application.usersearch",
+      "type": "com.autoconfig.property.file.demo.config.UserSearchPublicConfig",
+      "sourceType": "com.autoconfig.property.file.demo.config.UserSearchPublicConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "currency-service.key",
+      "type": "java.lang.String",
+      "sourceType": "com.autoconfig.property.file.demo.config.CurrencyServiceConfiguration"
+    },
+    {
+      "name": "currency-service.url",
+      "type": "java.lang.String",
+      "sourceType": "com.autoconfig.property.file.demo.config.CurrencyServiceConfiguration"
+    },
+    {
+      "name": "currency-service.username",
+      "type": "java.lang.String",
+      "sourceType": "com.autoconfig.property.file.demo.config.CurrencyServiceConfiguration"
+    },
+    {
+      "name": "spring.application.usersearch.allowed-business-area",
+      "type": "java.util.Map<java.lang.String,java.util.List<java.lang.String>>",
+      "sourceType": "com.autoconfig.property.file.demo.config.UserSearchPublicConfig"
+    },
+    {
+      "name": "spring.application.usersearch.allowed-country-invoice-type",
+      "type": "java.util.Map<java.lang.String,java.util.List<java.lang.String>>",
+      "sourceType": "com.autoconfig.property.file.demo.config.UserSearchPublicConfig"
+    },
+    {
+      "name": "spring.application.usersearch.allowed-country-user",
+      "type": "java.util.Map<java.lang.String,java.util.List<java.lang.Character>>",
+      "sourceType": "com.autoconfig.property.file.demo.config.UserSearchPublicConfig"
+    }
+  ],
+  "hints": []
+}
