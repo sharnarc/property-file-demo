@@ -6,6 +6,11 @@
       "sourceType": "com.autoconfig.property.file.demo.config.CurrencyServiceConfiguration"
     },
     {
+      "name": "reactive-service",
+      "type": "com.autoconfig.property.file.demo.config.ReactiveCrudDemoServiceConfig",
+      "sourceType": "com.autoconfig.property.file.demo.config.ReactiveCrudDemoServiceConfig"
+    },
+    {
       "name": "spring.application.usersearch",
       "type": "com.autoconfig.property.file.demo.config.UserSearchPublicConfig",
       "sourceType": "com.autoconfig.property.file.demo.config.UserSearchPublicConfig"
@@ -26,6 +31,11 @@
       "name": "currency-service.username",
       "type": "java.lang.String",
       "sourceType": "com.autoconfig.property.file.demo.config.CurrencyServiceConfiguration"
+    },
+    {
+      "name": "reactive-service.url",
+      "type": "java.lang.String",
+      "sourceType": "com.autoconfig.property.file.demo.config.ReactiveCrudDemoServiceConfig"
     },
     {
       "name": "spring.application.usersearch.allowed-business-area",

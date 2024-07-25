@@ -27,6 +27,26 @@ public class CurrencyServiceConfigurationRouter {
                 .GET("", handler::getConfigDetailsForUsersByValues)
 
             )
+            .path("/user-details/{number}", builder -> builder
+                .GET("", handler::getUserDetailsFromReactiveService)
+
+            )
+            .path("/project-details/{projectId}", builder -> builder
+                .GET("", handler::getProjectDetails)
+
+            )
+            .path("/project-details/webclient/{projectId}", builder -> builder
+                .GET("", handler::getProjectDetailsViaClient)
+
+            )
             .build();
     }
 }
+// use webclient to call services
+// WebClient is a non-blocking, reactive client for performing HTTP requests.
+// Part of the Spring WebFlux module.
+// Suitable for reactive, non-blocking applications.
+
+/*RestTemplate is a synchronous client to perform HTTP requests.
+It's part of the Spring Web module.
+Suitable for traditional, blocking applications.*/
