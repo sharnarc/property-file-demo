@@ -1,0 +1,22 @@
+
+spring:
+  application:
+    usersearch:
+      allowedBusinessArea:
+        NP:
+          - IN
+      allowedCountryInvoiceType:
+        IN:
+          - DND
+          - LOCAL
+        MA:
+          - DND
+          - LOCAL
+
+      allowedCountryUser:
+        IN:
+          - D
+          - L
+        MA:
+          - D
+          - L
